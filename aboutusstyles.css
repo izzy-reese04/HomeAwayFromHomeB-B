@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0e1a18;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+header img {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #10201F;
+    padding: 0px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 50px;
+}
+
+nav a:hover {
+    background-color: #9b9b9b34;
+}
+
+section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+section img.large-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 1000px;
+    margin-bottom: 0px;
+}
+
+.title-section {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-weight:bold;
+    padding: 20px 0;
+}
+
+.title-section p {
+    margin: 0;
+}
+
+.sub-section {
+    text-align: left;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #b2b2b222;
+    padding: 20px;
+}
+
+.sub-section h1 {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.sub-section img {
+    max-width: 35%;
+    border-radius: 15px;
+    order: 2;
+}
+
+.sub-section .text-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.sub-section .text-container p {
+    text-align: center;
+}
+
+.title-section {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-weight:bold;
+    padding: 20px 0;
+}
+
+.reviews-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top:0px;
+    margin-bottom: 50px;
+}
+
+.review {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.review h2 {
+    margin-top: 0;
+}
+
+.review p:last-child {
+    margin-bottom: 0;
+}
+
+.title-section-2 {
+    background-color: #10201F;
+    color: #ffffff;
+    text-align: center;
+    font-weight:bold;
+    padding: 20px 0;
+}
+
+.title-section-2 p {
+    margin: 0;
+}
+
+.qa-section {
+    margin-top: 0px;
+}
+
+.question {
+    margin-bottom: 50px;
+}
+
+.question h2 {
+    margin-top: 0;
+}
+
+.question p {
+    margin-bottom: 0;
+}
+
+.gallery-section {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.gallery-section img {
+    max-width: 30%;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.copyright-section {
+    background-color: #10201F;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.copyright-section p {
+    margin: 0;
+}

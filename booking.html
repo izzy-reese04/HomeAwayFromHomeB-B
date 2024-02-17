@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Away From Home B&B | Booking</title>
+    <link rel="stylesheet" href="bookingstyles.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="bedrooms.html">Bedrooms</a>
+            <a href="breakfast.html">Breakfast</a>
+            <a href="seeanddo.html">See & Do</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Book your stay at Home Away From Home B&B.</h1>
+        <form action="submit_booking.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required><br>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <section class="copyright-section">
+        <p>&copy; 2024 Home Away From Home B&B. All rights reserved.</p>
+    </section>
+
+    </body>
+    </html>
